@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         //添加点击事件
         btn_click.setOnClickListener(new MyOnClickListenwe());
 
-        AppCenter.start(getApplication(), "", Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "686737c0-e7a9-4f8c-b65b-04d9bf681177", Analytics.class, Crashes.class);
     }
     private class MyOnClickListenwe implements View.OnClickListener{
         public void onClick(View v){
